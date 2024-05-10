@@ -22652,7 +22652,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _handGrabState: {fileID: 500481684}
-  _syntheticHand: {fileID: 0}
+  _syntheticHand: {fileID: 1987263288}
 --- !u!1 &805566309
 GameObject:
   m_ObjectHideFlags: 0
@@ -24904,7 +24904,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _handGrabState: {fileID: 1116341573}
-  _syntheticHand: {fileID: 0}
+  _syntheticHand: {fileID: 260706056}
 --- !u!1 &904386985
 GameObject:
   m_ObjectHideFlags: 0
@@ -44420,7 +44420,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.98, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1473382736}
