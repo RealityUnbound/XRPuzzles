@@ -1,9 +1,10 @@
 {
   "dependencies": {
     "com.darktable.xrgizmos": "https://github.com/darktable/XRGizmos.git",
-    "com.meta.xr.sdk.all": "64.0.0",
-    "com.meta.xr.sdk.platform": "64.0.0",
-    "com.meta.xr.sdk.voice.composer": "64.0.0",
+    "com.meta.movement": "file:C:/Users/seans/Downloads/Unity-Movement-5.1.0",
+    "com.meta.xr.sdk.all": "63.0.0",
+    "com.meta.xr.sdk.platform": "63.0.0",
+    "com.meta.xr.sdk.voice.composer": "63.0.0",
     "com.unity.collab-proxy": "2.3.1",
     "com.unity.ide.rider": "3.0.28",
     "com.unity.ide.visualstudio": "2.0.22",
