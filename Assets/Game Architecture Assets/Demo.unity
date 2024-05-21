@@ -55667,7 +55667,7 @@ MonoBehaviour:
   m_modelMetaTouchPlusLeftController: {fileID: 581272366}
   m_modelMetaTouchPlusRightController: {fileID: 2081716410}
   m_controller: 2
-  m_showState: 1
+  m_showState: 0
   showWhenHandsArePoweredByNaturalControllerPoses: 0
   RayHelper: {fileID: 0}
 --- !u!114 &1842772426
@@ -56402,7 +56402,7 @@ MonoBehaviour:
   m_modelMetaTouchPlusLeftController: {fileID: 764716997}
   m_modelMetaTouchPlusRightController: {fileID: 1148859039}
   m_controller: 1
-  m_showState: 1
+  m_showState: 0
   showWhenHandsArePoweredByNaturalControllerPoses: 0
   RayHelper: {fileID: 0}
 --- !u!114 &1866526781
@@ -57931,6 +57931,79 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1622203506}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1914687666
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1914687669}
+  - component: {fileID: 1914687668}
+  - component: {fileID: 1914687667}
+  m_Layer: 0
+  m_Name: '[BuildingBlock] Controller Buttons Mapper'
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1914687667
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914687666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d376240d064f4484e81824d51391caf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _buttonClickActions:
+  - Title: Movement
+    Button: 524288
+    ButtonMode: 0
+    Callback:
+      m_PersistentCalls:
+        m_Calls: []
+  - Title: Movement
+    Button: 524288
+    ButtonMode: 0
+    Callback:
+      m_PersistentCalls:
+        m_Calls: []
+--- !u!114 &1914687668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914687666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b023183069df224080314a560e6e1ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  blockId: 80aa2eb2-af2f-40a9-ad9e-18044ce65bee
+  instanceId: b9547189-571d-4ad1-9053-34f5fb54a3d3
+  version: 1
+--- !u!4 &1914687669
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914687666}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1914809528
 GameObject:
@@ -65754,3 +65827,4 @@ SceneRoots:
   - {fileID: 849779820}
   - {fileID: 1253725580}
   - {fileID: 21429401}
+  - {fileID: 1914687669}
